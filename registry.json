@@ -31,11 +31,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/genius-mode",
       "files": [
         {
@@ -67,11 +64,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/no-yapping",
       "files": [
         {
@@ -98,11 +92,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-04",
-      "weeklyDownloads": 0,
       "path": "mods/concise-coder",
       "files": [
         {
@@ -129,11 +120,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/git-unfuck",
       "files": [
         {
@@ -161,11 +149,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/ship-it",
       "files": [
         {
@@ -192,11 +177,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/deep-review",
       "files": [
         {
@@ -223,11 +205,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/explain-like-a-diff",
       "files": [
         {
@@ -255,11 +234,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/react-expert",
       "files": [
         {
@@ -286,11 +262,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/auto-documenter",
       "files": [
         {
@@ -318,11 +291,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/security-auditor",
       "files": [
         {
@@ -349,11 +319,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-04",
-      "weeklyDownloads": 0,
       "path": "mods/senior-engineer",
       "files": [
         {
@@ -380,11 +347,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/teach-me",
       "files": [
         {
@@ -411,11 +375,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-04",
-      "weeklyDownloads": 0,
       "path": "mods/pair-programmer",
       "files": [
         {
@@ -442,11 +403,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/rust-whisperer",
       "files": [
         {
@@ -473,11 +431,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/startup-cto",
       "files": [
         {
@@ -505,11 +460,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/data-pipeline-pro",
       "files": [
         {
@@ -536,11 +488,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/technical-writer",
       "files": [
         {
@@ -568,11 +517,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/academic-writer",
       "files": [
         {
@@ -601,11 +547,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/devops-mode",
       "files": [
         {
@@ -633,11 +576,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/architect-mode",
       "files": [
         {
@@ -664,11 +604,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/devils-advocate",
       "files": [
         {
@@ -696,11 +633,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/tdd-coach",
       "files": [
         {
@@ -728,11 +662,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/incident-commander",
       "files": [
         {
@@ -759,11 +690,8 @@
       ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 0,
-      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 0,
       "path": "mods/focus-mode",
       "files": [
         {
