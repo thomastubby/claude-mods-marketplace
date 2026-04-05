@@ -43,22 +43,83 @@ Mods are **drop-in customizations** for Claude Desktop. Install one and Claude i
 
 ## Quick Start
 
-### 1. Install the Marketplace
+### 1. Clone and Copy Files
 
 ```bash
 git clone https://github.com/thomastubby/claude-mods-marketplace.git
-cp -r claude-mods-marketplace ~/.claude/plugins/claude-mods
+cd claude-mods-marketplace
 ```
 
-### 2. Restart Claude Desktop
+Copy the mod sources so the marketplace can install mods locally:
 
-### 3. Browse & Install
+```bash
+# Create the local mod registry
+mkdir -p ~/.claude/plugins/claude-mods
+cp registry.json ~/.claude/plugins/claude-mods/
+cp -r mods ~/.claude/plugins/claude-mods/mod-sources
+cp -r modpacks ~/.claude/plugins/claude-mods/modpacks
+```
+
+### 2. Install the Marketplace Plugin
+
+Copy the marketplace plugin into the official plugins directory and register it:
+
+```bash
+# Copy plugin files
+mkdir -p ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-mods-marketplace/.claude-plugin
+mkdir -p ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-mods-marketplace/skills/mods
+
+cp mods/modpack-manager/plugin.json \
+   ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-mods-marketplace/.claude-plugin/plugin.json
+```
+
+Then add the marketplace entry to the marketplace manifest. Open `~/.claude/plugins/marketplaces/claude-plugins-official/.claude-plugin/marketplace.json` and add this to the `plugins` array:
+
+```json
+{
+  "name": "claude-mods-marketplace",
+  "description": "Browse, install, and manage community mods for Claude Desktop",
+  "author": { "name": "Claude Mods" },
+  "source": "./plugins/claude-mods-marketplace",
+  "category": "productivity"
+}
+```
+
+Commit the change into the marketplace git repo:
+
+```bash
+cd ~/.claude/plugins/marketplaces/claude-plugins-official
+git add plugins/claude-mods-marketplace .claude-plugin/marketplace.json
+git commit -m "Add Claude Mods Marketplace plugin"
+```
+
+### 3. Enable the Plugin
+
+Add the plugin to your enabled plugins in `~/.claude/settings.json`:
+
+```json
+{
+  "enabledPlugins": {
+    "claude-mods-marketplace@claude-plugins-official": true
+  }
+}
+```
+
+If you already have content in `settings.json`, just add the `enabledPlugins` key.
+
+### 4. Restart Claude Desktop
+
+Close and reopen Claude Desktop. Type `/mods` to see the marketplace.
+
+### 5. Browse & Install
 
 ```
 /mods                             Browse the full marketplace
 /mods install no-yapping          Install a mod
 /modpack install power-user-pack  Install a bundle of mods at once
 ```
+
+> **Tip:** After installing mods with skills (slash commands), you'll need to add them to `enabledPlugins` in `settings.json` and restart Claude Desktop for the new commands to appear.
 
 ---
 
