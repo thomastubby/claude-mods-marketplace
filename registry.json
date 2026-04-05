@@ -1,7 +1,12 @@
 {
   "version": "2.0.0",
   "repo": "thomastubby/claude-mods-marketplace",
-  "featured": ["genius-mode", "no-yapping", "git-unfuck", "focus-mode"],
+  "featured": [
+    "genius-mode",
+    "no-yapping",
+    "git-unfuck",
+    "focus-mode"
+  ],
   "categories": {
     "skills": "New slash commands & capabilities",
     "styles": "Change how Claude writes & responds",
@@ -15,22 +20,36 @@
     {
       "name": "genius-mode",
       "displayName": "Genius Creator Mode",
-      "description": "Autonomous feature builder \u2014 give it an idea, it builds everything until done. Plans, codes, tests, and iterates with zero hand-holding.",
+      "description": "Autonomous feature builder — give it an idea, it builds everything until done. Plans, codes, tests, and iterates with zero hand-holding.",
       "author": "claude-mods",
       "category": "modes",
-      "tags": ["autonomous", "builder", "power-user", "productivity"],
+      "tags": [
+        "autonomous",
+        "builder",
+        "power-user",
+        "productivity"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 2400,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 340,
+      "weeklyDownloads": 0,
       "path": "mods/genius-mode",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" },
-        { "src": "SKILL.md", "dest": "skills/genius/SKILL.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        },
+        {
+          "src": "SKILL.md",
+          "dest": "skills/genius/SKILL.md"
+        }
       ]
     },
     {
@@ -39,38 +58,61 @@
       "description": "Eliminates ALL filler, hedging, sycophancy, and preamble. Every word earns its place. The most-requested behavior change in every AI community.",
       "author": "claude-mods",
       "category": "styles",
-      "tags": ["concise", "minimal", "no-filler", "productivity", "popular"],
+      "tags": [
+        "concise",
+        "minimal",
+        "no-filler",
+        "productivity",
+        "popular"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 3200,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 520,
+      "weeklyDownloads": 0,
       "path": "mods/no-yapping",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
       "name": "concise-coder",
       "displayName": "Concise Coder",
-      "description": "Minimal responses, maximum code. No fluff, no filler, no hand-holding \u2014 just clean output.",
+      "description": "Minimal responses, maximum code. No fluff, no filler, no hand-holding — just clean output.",
       "author": "claude-mods",
       "category": "styles",
-      "tags": ["minimal", "code-focused", "terse", "productivity"],
+      "tags": [
+        "minimal",
+        "code-focused",
+        "terse",
+        "productivity"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 1850,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-04",
-      "weeklyDownloads": 280,
+      "weeklyDownloads": 0,
       "path": "mods/concise-coder",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -79,18 +121,29 @@
       "description": "When your git repo is a disaster, this diagnoses exactly what went wrong and gives you the precise recovery commands. No more StackOverflow rabbit holes.",
       "author": "claude-mods",
       "category": "skills",
-      "tags": ["git", "recovery", "developer-tools", "essential"],
+      "tags": [
+        "git",
+        "recovery",
+        "developer-tools",
+        "essential"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 2800,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-01",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 450,
+      "weeklyDownloads": 0,
       "path": "mods/git-unfuck",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "SKILL.md", "dest": "skills/git-unfuck/SKILL.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "SKILL.md",
+          "dest": "skills/git-unfuck/SKILL.md"
+        }
       ]
     },
     {
@@ -99,18 +152,30 @@
       "description": "From 'works on my machine' to production. Generates Dockerfiles, CI pipelines, docker-compose, env configs for your actual stack.",
       "author": "claude-mods",
       "category": "skills",
-      "tags": ["devops", "docker", "ci-cd", "deployment", "production"],
+      "tags": [
+        "devops",
+        "docker",
+        "ci-cd",
+        "deployment",
+        "production"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 1600,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 310,
+      "weeklyDownloads": 0,
       "path": "mods/ship-it",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "SKILL.md", "dest": "skills/ship-it/SKILL.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "SKILL.md",
+          "dest": "skills/ship-it/SKILL.md"
+        }
       ]
     },
     {
@@ -119,38 +184,60 @@
       "description": "Senior-engineer-level code review that catches security holes, performance foot-guns, and architectural mistakes. Rates code 1-5 across four dimensions.",
       "author": "claude-mods",
       "category": "skills",
-      "tags": ["code-review", "security", "performance", "quality"],
+      "tags": [
+        "code-review",
+        "security",
+        "performance",
+        "quality"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 1400,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 260,
+      "weeklyDownloads": 0,
       "path": "mods/deep-review",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "SKILL.md", "dest": "skills/deep-review/SKILL.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "SKILL.md",
+          "dest": "skills/deep-review/SKILL.md"
+        }
       ]
     },
     {
       "name": "explain-like-a-diff",
       "displayName": "Explain Like a Diff",
-      "description": "Generates human-readable changelogs from git history \u2014 developer changelog, PM summary, and user-facing release notes in one shot.",
+      "description": "Generates human-readable changelogs from git history — developer changelog, PM summary, and user-facing release notes in one shot.",
       "author": "claude-mods",
       "category": "skills",
-      "tags": ["git", "changelog", "documentation", "communication"],
+      "tags": [
+        "git",
+        "changelog",
+        "documentation",
+        "communication"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 720,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 130,
+      "weeklyDownloads": 0,
       "path": "mods/explain-like-a-diff",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "SKILL.md", "dest": "skills/explain-diff/SKILL.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "SKILL.md",
+          "dest": "skills/explain-diff/SKILL.md"
+        }
       ]
     },
     {
@@ -159,18 +246,30 @@
       "description": "Deep React 19, Next.js 15, TypeScript, and Tailwind expertise pre-loaded. Server Components, App Router, modern patterns.",
       "author": "claude-mods",
       "category": "prompts",
-      "tags": ["react", "nextjs", "typescript", "frontend", "tailwind"],
+      "tags": [
+        "react",
+        "nextjs",
+        "typescript",
+        "frontend",
+        "tailwind"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 1200,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 150,
+      "weeklyDownloads": 0,
       "path": "mods/react-expert",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -179,18 +278,29 @@
       "description": "Scans your entire codebase and generates README, architecture docs, API reference, and setup guides automatically.",
       "author": "claude-mods",
       "category": "skills",
-      "tags": ["documentation", "readme", "automation", "productivity"],
+      "tags": [
+        "documentation",
+        "readme",
+        "automation",
+        "productivity"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 980,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 195,
+      "weeklyDownloads": 0,
       "path": "mods/auto-documenter",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "SKILL.md", "dest": "skills/auto-doc/SKILL.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "SKILL.md",
+          "dest": "skills/auto-doc/SKILL.md"
+        }
       ]
     },
     {
@@ -199,18 +309,30 @@
       "description": "OWASP-aware code scanner. Finds vulnerabilities, suggests fixes, checks dependencies for known CVEs.",
       "author": "claude-mods",
       "category": "prompts",
-      "tags": ["security", "owasp", "audit", "vulnerabilities", "cve"],
+      "tags": [
+        "security",
+        "owasp",
+        "audit",
+        "vulnerabilities",
+        "cve"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 890,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 175,
+      "weeklyDownloads": 0,
       "path": "mods/security-auditor",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -219,38 +341,60 @@
       "description": "Opinionated, pragmatic, production-focused. Reviews code like a staff engineer. No hand-holding, just ship-quality feedback.",
       "author": "claude-mods",
       "category": "styles",
-      "tags": ["opinionated", "pragmatic", "production", "senior"],
+      "tags": [
+        "opinionated",
+        "pragmatic",
+        "production",
+        "senior"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 650,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-04",
-      "weeklyDownloads": 110,
+      "weeklyDownloads": 0,
       "path": "mods/senior-engineer",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
       "name": "teach-me",
       "displayName": "Teach Me Mode",
-      "description": "Socratic learning \u2014 guides you to discover answers through questions and progressive hints instead of giving solutions directly.",
+      "description": "Socratic learning — guides you to discover answers through questions and progressive hints instead of giving solutions directly.",
       "author": "claude-mods",
       "category": "modes",
-      "tags": ["learning", "education", "socratic", "mentorship"],
+      "tags": [
+        "learning",
+        "education",
+        "socratic",
+        "mentorship"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 1100,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 200,
+      "weeklyDownloads": 0,
       "path": "mods/teach-me",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -259,58 +403,91 @@
       "description": "Thinks out loud, asks clarifying questions, suggests alternatives. Like pairing with a senior dev who explains their reasoning.",
       "author": "claude-mods",
       "category": "modes",
-      "tags": ["collaborative", "learning", "pair-programming", "teaching"],
+      "tags": [
+        "collaborative",
+        "learning",
+        "pair-programming",
+        "teaching"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 760,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-04",
-      "weeklyDownloads": 120,
+      "weeklyDownloads": 0,
       "path": "mods/pair-programmer",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
       "name": "rust-whisperer",
       "displayName": "Rust Whisperer",
-      "description": "Deep Rust expertise \u2014 ownership mental models, async runtime internals, idiomatic patterns. Stops you from fighting the borrow checker.",
+      "description": "Deep Rust expertise — ownership mental models, async runtime internals, idiomatic patterns. Stops you from fighting the borrow checker.",
       "author": "claude-mods",
       "category": "prompts",
-      "tags": ["rust", "systems-programming", "performance", "language"],
+      "tags": [
+        "rust",
+        "systems-programming",
+        "performance",
+        "language"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 680,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 140,
+      "weeklyDownloads": 0,
       "path": "mods/rust-whisperer",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
       "name": "startup-cto",
       "displayName": "Startup CTO Advisor",
-      "description": "Thinks like a technical co-founder \u2014 optimizes for shipping speed, team size, and runway. Monolith first, buy before build.",
+      "description": "Thinks like a technical co-founder — optimizes for shipping speed, team size, and runway. Monolith first, buy before build.",
       "author": "claude-mods",
       "category": "prompts",
-      "tags": ["startup", "architecture", "leadership", "strategy"],
+      "tags": [
+        "startup",
+        "architecture",
+        "leadership",
+        "strategy"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 920,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 180,
+      "weeklyDownloads": 0,
       "path": "mods/startup-cto",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -319,58 +496,93 @@
       "description": "dbt, Airflow, Spark, Snowflake, BigQuery mastery. Knows when to use DuckDB vs Spark and how to optimize warehouse costs.",
       "author": "claude-mods",
       "category": "prompts",
-      "tags": ["data-engineering", "dbt", "sql", "analytics", "etl"],
+      "tags": [
+        "data-engineering",
+        "dbt",
+        "sql",
+        "analytics",
+        "etl"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 540,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 90,
+      "weeklyDownloads": 0,
       "path": "mods/data-pipeline-pro",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
       "name": "technical-writer",
       "displayName": "Technical Writer",
-      "description": "Writes docs like a product \u2014 clear, scannable, example-rich. Follows the Diataxis framework. Never says 'simply' or 'just'.",
+      "description": "Writes docs like a product — clear, scannable, example-rich. Follows the Diataxis framework. Never says 'simply' or 'just'.",
       "author": "claude-mods",
       "category": "prompts",
-      "tags": ["documentation", "writing", "diataxis", "developer-experience"],
+      "tags": [
+        "documentation",
+        "writing",
+        "diataxis",
+        "developer-experience"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 480,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 85,
+      "weeklyDownloads": 0,
       "path": "mods/technical-writer",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
       "name": "academic-writer",
       "displayName": "Academic Writer",
-      "description": "Formats responses like peer-reviewed papers \u2014 structured sections, citations, formal methodology, confidence levels.",
+      "description": "Formats responses like peer-reviewed papers — structured sections, citations, formal methodology, confidence levels.",
       "author": "claude-mods",
       "category": "styles",
-      "tags": ["research", "academic", "writing", "formal", "citations"],
+      "tags": [
+        "research",
+        "academic",
+        "writing",
+        "formal",
+        "citations"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 320,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 60,
+      "weeklyDownloads": 0,
       "path": "mods/academic-writer",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -379,18 +591,31 @@
       "description": "Infrastructure, CI/CD, Docker, Kubernetes, Terraform expertise. Thinks in pipelines, deploys, and monitoring.",
       "author": "claude-mods",
       "category": "prompts",
-      "tags": ["devops", "ci-cd", "docker", "kubernetes", "terraform", "infrastructure"],
+      "tags": [
+        "devops",
+        "ci-cd",
+        "docker",
+        "kubernetes",
+        "terraform",
+        "infrastructure"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 520,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 95,
+      "weeklyDownloads": 0,
       "path": "mods/devops-mode",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -399,18 +624,30 @@
       "description": "Designs systems, refuses to write code. Produces diagrams, API contracts, ADRs, and technical specs. Think before you build.",
       "author": "claude-mods",
       "category": "modes",
-      "tags": ["architecture", "system-design", "planning", "diagrams", "adr"],
+      "tags": [
+        "architecture",
+        "system-design",
+        "planning",
+        "diagrams",
+        "adr"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 850,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 160,
+      "weeklyDownloads": 0,
       "path": "mods/architect-mode",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -419,18 +656,29 @@
       "description": "Systematically argues against every decision to stress-test your ideas. Finds hidden assumptions, role-plays skeptical stakeholders.",
       "author": "claude-mods",
       "category": "modes",
-      "tags": ["critical-thinking", "decision-making", "planning", "review"],
+      "tags": [
+        "critical-thinking",
+        "decision-making",
+        "planning",
+        "review"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 620,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 105,
+      "weeklyDownloads": 0,
       "path": "mods/devils-advocate",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
@@ -439,38 +687,62 @@
       "description": "Enforces strict red-green-refactor. Tests first, minimal implementation second, refactor third. Refuses to write code before the test.",
       "author": "claude-mods",
       "category": "modes",
-      "tags": ["testing", "tdd", "quality", "methodology", "discipline"],
+      "tags": [
+        "testing",
+        "tdd",
+        "quality",
+        "methodology",
+        "discipline"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 580,
-      "stars": 4,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-03",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 100,
+      "weeklyDownloads": 0,
       "path": "mods/tdd-coach",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     },
     {
       "name": "incident-commander",
       "displayName": "Incident Commander",
-      "description": "Structured incident response \u2014 triage, diagnosis, communication templates, timeline tracking, and blameless post-mortem generation.",
+      "description": "Structured incident response — triage, diagnosis, communication templates, timeline tracking, and blameless post-mortem generation.",
       "author": "claude-mods",
       "category": "skills",
-      "tags": ["incident-response", "sre", "operations", "production", "postmortem"],
+      "tags": [
+        "incident-response",
+        "sre",
+        "operations",
+        "production",
+        "postmortem"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 440,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-04",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 75,
+      "weeklyDownloads": 0,
       "path": "mods/incident-commander",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "SKILL.md", "dest": "skills/incident/SKILL.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "SKILL.md",
+          "dest": "skills/incident/SKILL.md"
+        }
       ]
     },
     {
@@ -479,18 +751,29 @@
       "description": "Locks you into one task, resists scope creep, parks distractions, and flags yak-shaving. Your productivity bodyguard.",
       "author": "claude-mods",
       "category": "modes",
-      "tags": ["productivity", "focus", "scope-creep", "task-management"],
+      "tags": [
+        "productivity",
+        "focus",
+        "scope-creep",
+        "task-management"
+      ],
       "version": "1.0.0",
       "verified": true,
-      "downloads": 1500,
-      "stars": 5,
+      "downloads": 0,
+      "stars": 0,
       "createdAt": "2026-04-02",
       "updatedAt": "2026-04-05",
-      "weeklyDownloads": 290,
+      "weeklyDownloads": 0,
       "path": "mods/focus-mode",
       "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+        {
+          "src": "plugin.json",
+          "dest": ".claude-plugin/plugin.json"
+        },
+        {
+          "src": "CLAUDE.md",
+          "dest": "CLAUDE.md"
+        }
       ]
     }
   ]
