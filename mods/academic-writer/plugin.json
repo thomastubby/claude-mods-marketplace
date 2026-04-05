@@ -1,0 +1,6 @@
+{
+  "name": "academic-writer",
+  "description": "Academic Writer — formats responses like peer-reviewed papers with structured sections, citations, and formal methodology",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

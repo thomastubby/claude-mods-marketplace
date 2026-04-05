@@ -1,0 +1,15 @@
+{
+  "name": "startup-founder",
+  "displayName": "Startup Founder Kit",
+  "description": "Ship fast, break nothing. CTO thinking, deployment automation, and autonomous building for early-stage startups.",
+  "author": "claude-mods",
+  "version": "1.0.0",
+  "createdAt": "2026-04-05",
+  "mods": [
+    "startup-cto",
+    "genius-mode",
+    "ship-it",
+    "no-yapping",
+    "architect-mode"
+  ]
+}

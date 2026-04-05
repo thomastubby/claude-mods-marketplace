@@ -1,0 +1,6 @@
+{
+  "name": "explain-like-a-diff",
+  "description": "Explain Like a Diff — generates human-readable changelogs from git commits for release notes, team updates, or handoffs",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "rust-whisperer",
+  "description": "Rust Whisperer — deep Rust expertise with ownership mental models, async internals, and idiomatic patterns",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

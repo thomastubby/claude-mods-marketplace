@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-dev-kit",
+  "displayName": "Full Stack Developer Kit",
+  "description": "Everything a full-stack dev needs \u2014 React expertise, concise output, code review, deployment tools, and git recovery.",
+  "author": "claude-mods",
+  "version": "1.0.0",
+  "createdAt": "2026-04-05",
+  "mods": [
+    "concise-coder",
+    "react-expert",
+    "deep-review",
+    "ship-it",
+    "git-unfuck",
+    "security-auditor"
+  ]
+}

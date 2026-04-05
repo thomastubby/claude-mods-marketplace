@@ -1,0 +1,6 @@
+{
+  "name": "deep-review",
+  "description": "Deep Code Review — senior-engineer-level review that catches security holes, performance issues, and architectural mistakes",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

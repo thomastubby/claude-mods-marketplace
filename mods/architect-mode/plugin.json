@@ -1,0 +1,6 @@
+{
+  "name": "architect-mode",
+  "description": "Architect Mode — designs systems before writing code. Produces diagrams, API contracts, ADRs, and technical specs.",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "tdd-coach",
+  "description": "TDD Coach — enforces red-green-refactor workflow. Tests first, implementation second, refactor third.",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

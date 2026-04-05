@@ -9,15 +9,16 @@
 
 <p align="center">
   <a href="#-quick-start"><img src="https://img.shields.io/badge/Get_Started-F59E0B?style=for-the-badge&logo=rocket&logoColor=white" alt="Get Started"/></a>
-  <a href="#-available-mods"><img src="https://img.shields.io/badge/Browse_Mods-1a1a2e?style=for-the-badge&logo=puzzle-piece&logoColor=F59E0B" alt="Browse Mods"/></a>
+  <a href="#-available-mods"><img src="https://img.shields.io/badge/Browse_24_Mods-1a1a2e?style=for-the-badge&logo=puzzle-piece&logoColor=F59E0B" alt="Browse Mods"/></a>
+  <a href="#-modpacks"><img src="https://img.shields.io/badge/Modpacks-0f3460?style=for-the-badge&logo=package&logoColor=F59E0B" alt="Modpacks"/></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-0f3460?style=for-the-badge&logo=github&logoColor=white" alt="Contribute"/></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/mods-8_verified-F59E0B?style=flat-square" alt="8 Verified Mods"/>
-  <img src="https://img.shields.io/badge/categories-6-16213e?style=flat-square" alt="6 Categories"/>
+  <img src="https://img.shields.io/badge/mods-24_verified-F59E0B?style=flat-square" alt="24 Verified Mods"/>
+  <img src="https://img.shields.io/badge/modpacks-4-D97706?style=flat-square" alt="4 Modpacks"/>
+  <img src="https://img.shields.io/badge/categories-7-16213e?style=flat-square" alt="7 Categories"/>
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License"/>
-  <img src="https://img.shields.io/badge/community-open_source-blue?style=flat-square" alt="Open Source"/>
 </p>
 
 ---
@@ -28,12 +29,13 @@ Mods are **drop-in customizations** for Claude Desktop. Install one and Claude i
 
 <table>
 <tr>
-<td align="center" width="160"><br/><strong>Skills</strong><br/><sub>New slash commands</sub><br/><br/></td>
-<td align="center" width="160"><br/><strong>Styles</strong><br/><sub>Change response tone</sub><br/><br/></td>
-<td align="center" width="160"><br/><strong>Prompts</strong><br/><sub>Domain expertise</sub><br/><br/></td>
-<td align="center" width="160"><br/><strong>Modes</strong><br/><sub>Behavioral overhauls</sub><br/><br/></td>
-<td align="center" width="160"><br/><strong>Agents</strong><br/><sub>Custom sub-agents</sub><br/><br/></td>
-<td align="center" width="160"><br/><strong>Hooks</strong><br/><sub>Auto-triggered actions</sub><br/><br/></td>
+<td align="center" width="140"><br/><strong>Skills</strong><br/><sub>New slash commands</sub><br/><br/></td>
+<td align="center" width="140"><br/><strong>Styles</strong><br/><sub>Change response tone</sub><br/><br/></td>
+<td align="center" width="140"><br/><strong>Prompts</strong><br/><sub>Domain expertise</sub><br/><br/></td>
+<td align="center" width="140"><br/><strong>Modes</strong><br/><sub>Behavioral overhauls</sub><br/><br/></td>
+<td align="center" width="140"><br/><strong>Agents</strong><br/><sub>Custom sub-agents</sub><br/><br/></td>
+<td align="center" width="140"><br/><strong>Hooks</strong><br/><sub>Auto-triggered actions</sub><br/><br/></td>
+<td align="center" width="140"><br/><strong>Modpacks</strong><br/><sub>Curated bundles</sub><br/><br/></td>
 </tr>
 </table>
 
@@ -44,164 +46,128 @@ Mods are **drop-in customizations** for Claude Desktop. Install one and Claude i
 ### 1. Install the Marketplace
 
 ```bash
-# Clone this repo
 git clone https://github.com/thomastubby/claude-mods-marketplace.git
-
-# Copy the marketplace plugin into Claude's plugin directory
 cp -r claude-mods-marketplace ~/.claude/plugins/claude-mods
 ```
 
 ### 2. Restart Claude Desktop
 
-Close and reopen Claude Desktop to load the marketplace.
-
 ### 3. Browse & Install
 
 ```
-/mods                        Browse the full marketplace
-/mods trending               See what's popular this week
-/mods install genius-mode    Install a mod
-/mods search security        Search by keyword
-/mods installed              See your installed mods
+/mods                             Browse the full marketplace
+/mods install no-yapping          Install a mod
+/modpack install power-user-pack  Install a bundle of mods at once
 ```
-
-That's it. One command to browse, one command to install.
 
 ---
 
 ## Available Mods
 
-### Verified Mods
+### Skills — New Commands
 
-> Reviewed for quality and safety by the maintainer.
+| Mod | Description |
+|-----|-------------|
+| **Git Unfuck** `/git-unfuck` | Diagnoses and fixes messy git states \u2014 detached HEAD, botched rebases, wrong-branch commits |
+| **Ship It** `/ship-it` | Generates Dockerfiles, CI pipelines, docker-compose, and env configs for your stack |
+| **Deep Code Review** `/deep-review` | Senior-level review: security, performance, correctness, maintainability. Rates 1-5. |
+| **Auto Documenter** `/auto-doc` | Scans your codebase, generates README, architecture docs, API reference |
+| **Explain Like a Diff** `/explain-diff` | Turns git history into changelogs for devs, PMs, and users |
+| **Incident Commander** `/incident` | Structured incident response: triage, diagnosis, comms templates, post-mortem |
 
-<table>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★★-F59E0B?style=flat-square&logo=star&logoColor=white" alt="5 stars"/>
-</td>
-<td>
-<strong>Genius Creator Mode</strong> &nbsp; <code>modes</code><br/>
-<sub>Autonomous feature builder — give it an idea, it plans, codes, tests, and iterates until done. Zero hand-holding.</sub>
-</td>
-</tr>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★★-F59E0B?style=flat-square&logo=star&logoColor=white" alt="5 stars"/>
-</td>
-<td>
-<strong>Concise Coder</strong> &nbsp; <code>styles</code><br/>
-<sub>Minimal responses, maximum code. No fluff, no filler, no hand-holding — just clean output.</sub>
-</td>
-</tr>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★☆-F59E0B?style=flat-square&logo=star&logoColor=white" alt="4 stars"/>
-</td>
-<td>
-<strong>React Expert</strong> &nbsp; <code>prompts</code><br/>
-<sub>Deep React 19, Next.js 15, TypeScript, and Tailwind expertise pre-loaded. Server Components, App Router, modern patterns.</sub>
-</td>
-</tr>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★☆-F59E0B?style=flat-square&logo=star&logoColor=white" alt="4 stars"/>
-</td>
-<td>
-<strong>Auto Documenter</strong> &nbsp; <code>skills</code><br/>
-<sub>Scans your entire codebase and generates README, architecture docs, API reference, and setup guides.</sub>
-</td>
-</tr>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★★-F59E0B?style=flat-square&logo=star&logoColor=white" alt="5 stars"/>
-</td>
-<td>
-<strong>Security Auditor</strong> &nbsp; <code>prompts</code><br/>
-<sub>OWASP-aware code scanner. Finds vulnerabilities, suggests fixes, checks dependencies for known CVEs.</sub>
-</td>
-</tr>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★☆-F59E0B?style=flat-square&logo=star&logoColor=white" alt="4 stars"/>
-</td>
-<td>
-<strong>Pair Programmer</strong> &nbsp; <code>modes</code><br/>
-<sub>Thinks out loud, asks clarifying questions, suggests alternatives. Like pairing with a senior dev.</sub>
-</td>
-</tr>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★★-F59E0B?style=flat-square&logo=star&logoColor=white" alt="5 stars"/>
-</td>
-<td>
-<strong>Senior Engineer</strong> &nbsp; <code>styles</code><br/>
-<sub>Opinionated, pragmatic, production-focused. Reviews code like a staff engineer. Ship-quality feedback.</sub>
-</td>
-</tr>
-<tr>
-<td width="50" align="center">
-<img src="https://img.shields.io/badge/★★★★☆-F59E0B?style=flat-square&logo=star&logoColor=white" alt="4 stars"/>
-</td>
-<td>
-<strong>DevOps Mode</strong> &nbsp; <code>prompts</code><br/>
-<sub>Infrastructure, CI/CD, Docker, Kubernetes, Terraform expertise. Thinks in pipelines and deploys.</sub>
-</td>
-</tr>
-</table>
+### Styles — Change How Claude Responds
+
+| Mod | Description |
+|-----|-------------|
+| **No Yapping** | Eliminates ALL filler, hedging, and sycophancy. Every word earns its place. |
+| **Concise Coder** | Minimal responses, maximum code. Zero fluff. |
+| **Senior Engineer** | Opinionated, pragmatic, production-focused. Pushes back on bad ideas. |
+| **Academic Writer** | Structured sections, citations, formal methodology, confidence levels. |
+
+### Prompts — Pre-loaded Expertise
+
+| Mod | Description |
+|-----|-------------|
+| **React Expert** | React 19, Next.js 15, TypeScript, Tailwind. Server Components, App Router. |
+| **Security Auditor** | OWASP Top 10, CVE awareness, vulnerability scanning, remediation guidance. |
+| **Rust Whisperer** | Ownership mental models, async internals, idiomatic patterns. |
+| **Startup CTO** | Optimizes for shipping speed, team size, and runway. Monolith first. |
+| **Data Pipeline Pro** | dbt, Airflow, Spark, Snowflake, BigQuery mastery. |
+| **DevOps Mode** | Docker, Kubernetes, Terraform, CI/CD, monitoring. |
+| **Technical Writer** | Diataxis framework, scannable docs, example-rich. Never says "simply." |
+
+### Modes — Behavioral Overhauls
+
+| Mod | Description |
+|-----|-------------|
+| **Genius Creator** `/genius` | Autonomous builder \u2014 give it an idea, it builds everything until done. |
+| **Focus Mode** | Locks you into one task. Resists scope creep. Parks distractions. |
+| **Architect Mode** | Refuses to write code. Produces diagrams, ADRs, API contracts, specs. |
+| **Devil's Advocate** | Argues against every decision to stress-test your ideas. |
+| **Pair Programmer** | Thinks out loud, asks questions, suggests alternatives. |
+| **TDD Coach** | Enforces red-green-refactor. Tests first, always. |
+| **Teach Me** | Socratic learning \u2014 guides you to discover answers yourself. |
 
 ---
 
-## How It Works
+## Modpacks
+
+**Modpacks are curated bundles.** Install a complete Claude setup with one command. Save your own setup as a modpack and share it with the community.
+
+| Modpack | Mods | Description |
+|---------|------|-------------|
+| **Power User Pack** | 8 mods | No Yapping + Genius Mode + Deep Review + Focus Mode + more |
+| **Startup Founder Kit** | 5 mods | Startup CTO + Genius Mode + Ship It + No Yapping + Architect |
+| **Full Stack Dev Kit** | 6 mods | Concise Coder + React Expert + Deep Review + Ship It + Git Unfuck + Security |
+| **Learning Path** | 4 mods | Teach Me + Pair Programmer + TDD Coach + Deep Review |
 
 ```
-/mods                          Full marketplace with featured & trending
-/mods install <name>           Download and install a mod
-/mods uninstall <name>         Remove an installed mod
+/modpack install power-user-pack    Install 8 mods at once
+/modpack save my-setup              Save your current mods as a modpack
+/modpack share my-setup             Publish your modpack for others
+/modpack list                       Browse available modpacks
+```
+
+---
+
+## Commands Reference
+
+```
+/mods                          Browse the full marketplace
+/mods install <name>           Install a mod
+/mods uninstall <name>         Remove a mod
 /mods search <query>           Search by keyword
 /mods trending                 Most popular this week
 /mods new                      Recently added
-/mods popular                  All-time most installed
 /mods category <cat>           Filter by category
 /mods info <name>              Detailed mod information
 /mods installed                List your installed mods
-/mods update <name>            Update to latest version
-```
 
-### Create Your Own
+/modpack install <name>        Install a bundle of mods
+/modpack save <name>           Save your current setup
+/modpack share <name>          Publish your modpack
+/modpack list                  Browse modpacks
 
-```
 /create-mod                    Interactive wizard to build a new mod
-/publish-mod <name>            Package and submit to the marketplace via PR
+/publish-mod <name>            Submit a mod to the marketplace via PR
 ```
 
 ---
 
 ## Contributing
 
-We welcome community mods! See the full [Contributing Guide](CONTRIBUTING.md) for details.
-
-**Quick version:**
+We welcome community mods! See the full [Contributing Guide](CONTRIBUTING.md).
 
 1. Fork this repo
 2. Add your mod to `mods/<your-mod-name>/`
 3. Add an entry to `registry.json`
 4. Open a PR
 
-Or just use **`/publish-mod`** inside Claude Desktop — it automates the entire flow.
-
-### Mod Structure
-
-```
-mods/your-mod-name/
-├── plugin.json       # Required: name, description, author
-├── SKILL.md          # For skills/modes: slash command definition
-└── CLAUDE.md         # For styles/prompts: behavioral instructions
-```
+Or use **`/publish-mod`** inside Claude Desktop to automate the entire flow.
 
 ### Verified Badge
 
-The maintainer may add the **Verified** badge to your mod after review. Verified mods are reviewed for quality and safety, and are featured more prominently in the marketplace.
+The maintainer may add the **Verified** badge after review. Verified mods show a checkmark in the marketplace and are featured more prominently.
 
 ---
 

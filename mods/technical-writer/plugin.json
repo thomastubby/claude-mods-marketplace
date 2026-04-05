@@ -1,0 +1,6 @@
+{
+  "name": "technical-writer",
+  "description": "Technical Writer — writes documentation like a product: clear, scannable, example-rich, following the Diataxis framework",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

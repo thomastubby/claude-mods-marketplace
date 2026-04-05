@@ -1,14 +1,15 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "repo": "thomastubby/claude-mods-marketplace",
-  "featured": ["genius-mode", "concise-coder"],
+  "featured": ["genius-mode", "no-yapping", "git-unfuck", "focus-mode"],
   "categories": {
     "skills": "New slash commands & capabilities",
     "styles": "Change how Claude writes & responds",
     "prompts": "Pre-loaded system instructions for specific workflows",
     "modes": "Behavioral overhauls that change how Claude works",
     "agents": "Custom sub-agents with specialized tools",
-    "hooks": "Auto-triggered behaviors on events"
+    "hooks": "Auto-triggered behaviors on events",
+    "modpacks": "Curated bundles of mods for specific workflows"
   },
   "mods": [
     {
@@ -33,6 +34,26 @@
       ]
     },
     {
+      "name": "no-yapping",
+      "displayName": "No Yapping",
+      "description": "Eliminates ALL filler, hedging, sycophancy, and preamble. Every word earns its place. The most-requested behavior change in every AI community.",
+      "author": "claude-mods",
+      "category": "styles",
+      "tags": ["concise", "minimal", "no-filler", "productivity", "popular"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 3200,
+      "stars": 5,
+      "createdAt": "2026-04-01",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 520,
+      "path": "mods/no-yapping",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
       "name": "concise-coder",
       "displayName": "Concise Coder",
       "description": "Minimal responses, maximum code. No fluff, no filler, no hand-holding \u2014 just clean output.",
@@ -50,6 +71,86 @@
       "files": [
         { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
         { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "git-unfuck",
+      "displayName": "Git Unfuck",
+      "description": "When your git repo is a disaster, this diagnoses exactly what went wrong and gives you the precise recovery commands. No more StackOverflow rabbit holes.",
+      "author": "claude-mods",
+      "category": "skills",
+      "tags": ["git", "recovery", "developer-tools", "essential"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 2800,
+      "stars": 5,
+      "createdAt": "2026-04-01",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 450,
+      "path": "mods/git-unfuck",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "SKILL.md", "dest": "skills/git-unfuck/SKILL.md" }
+      ]
+    },
+    {
+      "name": "ship-it",
+      "displayName": "Ship It",
+      "description": "From 'works on my machine' to production. Generates Dockerfiles, CI pipelines, docker-compose, env configs for your actual stack.",
+      "author": "claude-mods",
+      "category": "skills",
+      "tags": ["devops", "docker", "ci-cd", "deployment", "production"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 1600,
+      "stars": 5,
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 310,
+      "path": "mods/ship-it",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "SKILL.md", "dest": "skills/ship-it/SKILL.md" }
+      ]
+    },
+    {
+      "name": "deep-review",
+      "displayName": "Deep Code Review",
+      "description": "Senior-engineer-level code review that catches security holes, performance foot-guns, and architectural mistakes. Rates code 1-5 across four dimensions.",
+      "author": "claude-mods",
+      "category": "skills",
+      "tags": ["code-review", "security", "performance", "quality"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 1400,
+      "stars": 5,
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 260,
+      "path": "mods/deep-review",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "SKILL.md", "dest": "skills/deep-review/SKILL.md" }
+      ]
+    },
+    {
+      "name": "explain-like-a-diff",
+      "displayName": "Explain Like a Diff",
+      "description": "Generates human-readable changelogs from git history \u2014 developer changelog, PM summary, and user-facing release notes in one shot.",
+      "author": "claude-mods",
+      "category": "skills",
+      "tags": ["git", "changelog", "documentation", "communication"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 720,
+      "stars": 4,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 130,
+      "path": "mods/explain-like-a-diff",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "SKILL.md", "dest": "skills/explain-diff/SKILL.md" }
       ]
     },
     {
@@ -113,26 +214,6 @@
       ]
     },
     {
-      "name": "pair-programmer",
-      "displayName": "Pair Programmer",
-      "description": "Thinks out loud, asks clarifying questions, suggests alternatives. Like pairing with a senior dev who explains their reasoning.",
-      "author": "claude-mods",
-      "category": "modes",
-      "tags": ["collaborative", "learning", "pair-programming", "teaching"],
-      "version": "1.0.0",
-      "verified": true,
-      "downloads": 760,
-      "stars": 4,
-      "createdAt": "2026-04-03",
-      "updatedAt": "2026-04-04",
-      "weeklyDownloads": 120,
-      "path": "mods/pair-programmer",
-      "files": [
-        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
-        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
-      ]
-    },
-    {
       "name": "senior-engineer",
       "displayName": "Senior Engineer",
       "description": "Opinionated, pragmatic, production-focused. Reviews code like a staff engineer. No hand-holding, just ship-quality feedback.",
@@ -153,6 +234,146 @@
       ]
     },
     {
+      "name": "teach-me",
+      "displayName": "Teach Me Mode",
+      "description": "Socratic learning \u2014 guides you to discover answers through questions and progressive hints instead of giving solutions directly.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["learning", "education", "socratic", "mentorship"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 1100,
+      "stars": 5,
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 200,
+      "path": "mods/teach-me",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "pair-programmer",
+      "displayName": "Pair Programmer",
+      "description": "Thinks out loud, asks clarifying questions, suggests alternatives. Like pairing with a senior dev who explains their reasoning.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["collaborative", "learning", "pair-programming", "teaching"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 760,
+      "stars": 4,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-04",
+      "weeklyDownloads": 120,
+      "path": "mods/pair-programmer",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "rust-whisperer",
+      "displayName": "Rust Whisperer",
+      "description": "Deep Rust expertise \u2014 ownership mental models, async runtime internals, idiomatic patterns. Stops you from fighting the borrow checker.",
+      "author": "claude-mods",
+      "category": "prompts",
+      "tags": ["rust", "systems-programming", "performance", "language"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 680,
+      "stars": 5,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 140,
+      "path": "mods/rust-whisperer",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "startup-cto",
+      "displayName": "Startup CTO Advisor",
+      "description": "Thinks like a technical co-founder \u2014 optimizes for shipping speed, team size, and runway. Monolith first, buy before build.",
+      "author": "claude-mods",
+      "category": "prompts",
+      "tags": ["startup", "architecture", "leadership", "strategy"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 920,
+      "stars": 5,
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 180,
+      "path": "mods/startup-cto",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "data-pipeline-pro",
+      "displayName": "Data Pipeline Pro",
+      "description": "dbt, Airflow, Spark, Snowflake, BigQuery mastery. Knows when to use DuckDB vs Spark and how to optimize warehouse costs.",
+      "author": "claude-mods",
+      "category": "prompts",
+      "tags": ["data-engineering", "dbt", "sql", "analytics", "etl"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 540,
+      "stars": 4,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 90,
+      "path": "mods/data-pipeline-pro",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "technical-writer",
+      "displayName": "Technical Writer",
+      "description": "Writes docs like a product \u2014 clear, scannable, example-rich. Follows the Diataxis framework. Never says 'simply' or 'just'.",
+      "author": "claude-mods",
+      "category": "prompts",
+      "tags": ["documentation", "writing", "diataxis", "developer-experience"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 480,
+      "stars": 4,
+      "createdAt": "2026-04-04",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 85,
+      "path": "mods/technical-writer",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "academic-writer",
+      "displayName": "Academic Writer",
+      "description": "Formats responses like peer-reviewed papers \u2014 structured sections, citations, formal methodology, confidence levels.",
+      "author": "claude-mods",
+      "category": "styles",
+      "tags": ["research", "academic", "writing", "formal", "citations"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 320,
+      "stars": 4,
+      "createdAt": "2026-04-04",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 60,
+      "path": "mods/academic-writer",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
       "name": "devops-mode",
       "displayName": "DevOps Mode",
       "description": "Infrastructure, CI/CD, Docker, Kubernetes, Terraform expertise. Thinks in pipelines, deploys, and monitoring.",
@@ -167,6 +388,106 @@
       "updatedAt": "2026-04-05",
       "weeklyDownloads": 95,
       "path": "mods/devops-mode",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "architect-mode",
+      "displayName": "Architect Mode",
+      "description": "Designs systems, refuses to write code. Produces diagrams, API contracts, ADRs, and technical specs. Think before you build.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["architecture", "system-design", "planning", "diagrams", "adr"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 850,
+      "stars": 5,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 160,
+      "path": "mods/architect-mode",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "devils-advocate",
+      "displayName": "Devil's Advocate",
+      "description": "Systematically argues against every decision to stress-test your ideas. Finds hidden assumptions, role-plays skeptical stakeholders.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["critical-thinking", "decision-making", "planning", "review"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 620,
+      "stars": 5,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 105,
+      "path": "mods/devils-advocate",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "tdd-coach",
+      "displayName": "TDD Coach",
+      "description": "Enforces strict red-green-refactor. Tests first, minimal implementation second, refactor third. Refuses to write code before the test.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["testing", "tdd", "quality", "methodology", "discipline"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 580,
+      "stars": 4,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 100,
+      "path": "mods/tdd-coach",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "incident-commander",
+      "displayName": "Incident Commander",
+      "description": "Structured incident response \u2014 triage, diagnosis, communication templates, timeline tracking, and blameless post-mortem generation.",
+      "author": "claude-mods",
+      "category": "skills",
+      "tags": ["incident-response", "sre", "operations", "production", "postmortem"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 440,
+      "stars": 5,
+      "createdAt": "2026-04-04",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 75,
+      "path": "mods/incident-commander",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "SKILL.md", "dest": "skills/incident/SKILL.md" }
+      ]
+    },
+    {
+      "name": "focus-mode",
+      "displayName": "Focus Mode",
+      "description": "Locks you into one task, resists scope creep, parks distractions, and flags yak-shaving. Your productivity bodyguard.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["productivity", "focus", "scope-creep", "task-management"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 1500,
+      "stars": 5,
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 290,
+      "path": "mods/focus-mode",
       "files": [
         { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
         { "src": "CLAUDE.md", "dest": "CLAUDE.md" }

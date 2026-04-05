@@ -1,0 +1,18 @@
+{
+  "name": "power-user-pack",
+  "displayName": "Power User Pack",
+  "description": "The ultimate Claude setup for power users \u2014 no filler, autonomous building, deep reviews, and laser focus.",
+  "author": "claude-mods",
+  "version": "1.0.0",
+  "createdAt": "2026-04-05",
+  "mods": [
+    "no-yapping",
+    "genius-mode",
+    "deep-review",
+    "focus-mode",
+    "git-unfuck",
+    "senior-engineer",
+    "ship-it",
+    "security-auditor"
+  ]
+}

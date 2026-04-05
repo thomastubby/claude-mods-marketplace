@@ -1,0 +1,6 @@
+{
+  "name": "incident-commander",
+  "description": "Incident Commander — structured incident response: triage, communication, diagnosis, and post-mortem generation",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ship-it",
+  "description": "Ship It — generates Dockerfiles, CI pipelines, env configs, and deployment scripts for your stack",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

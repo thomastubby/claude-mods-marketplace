@@ -1,0 +1,6 @@
+{
+  "name": "data-pipeline-pro",
+  "description": "Data Pipeline Pro — dbt, Airflow, Spark, Snowflake, BigQuery expertise for modern data engineering",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

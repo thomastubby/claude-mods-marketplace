@@ -1,0 +1,6 @@
+{
+  "name": "git-unfuck",
+  "description": "Git Unfuck — diagnoses and fixes messy git states: detached HEAD, botched rebases, accidental commits, diverged branches",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}

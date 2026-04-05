@@ -1,0 +1,14 @@
+{
+  "name": "learning-path",
+  "displayName": "Learning Path",
+  "description": "For developers who want to level up \u2014 Socratic teaching, pair programming, TDD discipline, and code review mentorship.",
+  "author": "claude-mods",
+  "version": "1.0.0",
+  "createdAt": "2026-04-05",
+  "mods": [
+    "teach-me",
+    "pair-programmer",
+    "tdd-coach",
+    "deep-review"
+  ]
+}

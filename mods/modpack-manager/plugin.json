@@ -1,0 +1,6 @@
+{
+  "name": "modpack-manager",
+  "description": "Modpack Manager — save, share, and install curated bundles of mods",
+  "author": { "name": "Claude Mods" },
+  "version": "1.0.0"
+}
