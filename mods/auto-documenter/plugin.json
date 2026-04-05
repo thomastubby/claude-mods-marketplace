@@ -1,0 +1,8 @@
+{
+  "name": "auto-documenter",
+  "description": "Auto Documenter — scans your codebase and generates comprehensive documentation",
+  "author": {
+    "name": "Claude Mods"
+  },
+  "version": "1.0.0"
+}

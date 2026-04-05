@@ -1,0 +1,8 @@
+{
+  "name": "pair-programmer",
+  "description": "Pair Programmer mode — thinks out loud, asks questions, explains reasoning like a senior dev pairing with you",
+  "author": {
+    "name": "Claude Mods"
+  },
+  "version": "1.0.0"
+}

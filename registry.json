@@ -1,0 +1,176 @@
+{
+  "version": "1.0.0",
+  "repo": "thomastubby/claude-mods-marketplace",
+  "featured": ["genius-mode", "concise-coder"],
+  "categories": {
+    "skills": "New slash commands & capabilities",
+    "styles": "Change how Claude writes & responds",
+    "prompts": "Pre-loaded system instructions for specific workflows",
+    "modes": "Behavioral overhauls that change how Claude works",
+    "agents": "Custom sub-agents with specialized tools",
+    "hooks": "Auto-triggered behaviors on events"
+  },
+  "mods": [
+    {
+      "name": "genius-mode",
+      "displayName": "Genius Creator Mode",
+      "description": "Autonomous feature builder \u2014 give it an idea, it builds everything until done. Plans, codes, tests, and iterates with zero hand-holding.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["autonomous", "builder", "power-user", "productivity"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 2400,
+      "stars": 5,
+      "createdAt": "2026-04-01",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 340,
+      "path": "mods/genius-mode",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" },
+        { "src": "SKILL.md", "dest": "skills/genius/SKILL.md" }
+      ]
+    },
+    {
+      "name": "concise-coder",
+      "displayName": "Concise Coder",
+      "description": "Minimal responses, maximum code. No fluff, no filler, no hand-holding \u2014 just clean output.",
+      "author": "claude-mods",
+      "category": "styles",
+      "tags": ["minimal", "code-focused", "terse", "productivity"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 1850,
+      "stars": 5,
+      "createdAt": "2026-04-01",
+      "updatedAt": "2026-04-04",
+      "weeklyDownloads": 280,
+      "path": "mods/concise-coder",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "react-expert",
+      "displayName": "React Expert",
+      "description": "Deep React 19, Next.js 15, TypeScript, and Tailwind expertise pre-loaded. Server Components, App Router, modern patterns.",
+      "author": "claude-mods",
+      "category": "prompts",
+      "tags": ["react", "nextjs", "typescript", "frontend", "tailwind"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 1200,
+      "stars": 4,
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 150,
+      "path": "mods/react-expert",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "auto-documenter",
+      "displayName": "Auto Documenter",
+      "description": "Scans your entire codebase and generates README, architecture docs, API reference, and setup guides automatically.",
+      "author": "claude-mods",
+      "category": "skills",
+      "tags": ["documentation", "readme", "automation", "productivity"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 980,
+      "stars": 4,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 195,
+      "path": "mods/auto-documenter",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "SKILL.md", "dest": "skills/auto-doc/SKILL.md" }
+      ]
+    },
+    {
+      "name": "security-auditor",
+      "displayName": "Security Auditor",
+      "description": "OWASP-aware code scanner. Finds vulnerabilities, suggests fixes, checks dependencies for known CVEs.",
+      "author": "claude-mods",
+      "category": "prompts",
+      "tags": ["security", "owasp", "audit", "vulnerabilities", "cve"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 890,
+      "stars": 5,
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 175,
+      "path": "mods/security-auditor",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "pair-programmer",
+      "displayName": "Pair Programmer",
+      "description": "Thinks out loud, asks clarifying questions, suggests alternatives. Like pairing with a senior dev who explains their reasoning.",
+      "author": "claude-mods",
+      "category": "modes",
+      "tags": ["collaborative", "learning", "pair-programming", "teaching"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 760,
+      "stars": 4,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-04",
+      "weeklyDownloads": 120,
+      "path": "mods/pair-programmer",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "senior-engineer",
+      "displayName": "Senior Engineer",
+      "description": "Opinionated, pragmatic, production-focused. Reviews code like a staff engineer. No hand-holding, just ship-quality feedback.",
+      "author": "claude-mods",
+      "category": "styles",
+      "tags": ["opinionated", "pragmatic", "production", "senior"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 650,
+      "stars": 5,
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-04-04",
+      "weeklyDownloads": 110,
+      "path": "mods/senior-engineer",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    },
+    {
+      "name": "devops-mode",
+      "displayName": "DevOps Mode",
+      "description": "Infrastructure, CI/CD, Docker, Kubernetes, Terraform expertise. Thinks in pipelines, deploys, and monitoring.",
+      "author": "claude-mods",
+      "category": "prompts",
+      "tags": ["devops", "ci-cd", "docker", "kubernetes", "terraform", "infrastructure"],
+      "version": "1.0.0",
+      "verified": true,
+      "downloads": 520,
+      "stars": 4,
+      "createdAt": "2026-04-04",
+      "updatedAt": "2026-04-05",
+      "weeklyDownloads": 95,
+      "path": "mods/devops-mode",
+      "files": [
+        { "src": "plugin.json", "dest": ".claude-plugin/plugin.json" },
+        { "src": "CLAUDE.md", "dest": "CLAUDE.md" }
+      ]
+    }
+  ]
+}

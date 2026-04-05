@@ -1,0 +1,8 @@
+{
+  "name": "devops-mode",
+  "description": "DevOps Mode — infrastructure, CI/CD, Docker, Kubernetes, and Terraform expertise",
+  "author": {
+    "name": "Claude Mods"
+  },
+  "version": "1.0.0"
+}

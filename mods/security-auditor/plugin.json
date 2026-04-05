@@ -1,0 +1,8 @@
+{
+  "name": "security-auditor",
+  "description": "Security Auditor — OWASP-aware code scanner that finds vulnerabilities and suggests fixes",
+  "author": {
+    "name": "Claude Mods"
+  },
+  "version": "1.0.0"
+}
