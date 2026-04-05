@@ -1,32 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#D97706;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1"/>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
     </linearGradient>
-    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FDE68A;stop-opacity:0.4"/>
-      <stop offset="50%" style="stop-color:#FDE68A;stop-opacity:0"/>
-      <stop offset="100%" style="stop-color:#FDE68A;stop-opacity:0"/>
+    <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0f0f0f"/>
     </linearGradient>
   </defs>
-  <!-- Rounded square background -->
-  <rect x="4" y="4" width="112" height="112" rx="24" ry="24" fill="url(#bg)"/>
-  <rect x="4" y="4" width="112" height="112" rx="24" ry="24" fill="url(#shine)"/>
-  <!-- Puzzle piece / mod icon -->
-  <g transform="translate(60,60)">
-    <!-- Center block -->
-    <rect x="-18" y="-18" width="36" height="36" rx="4" fill="white" opacity="0.95"/>
-    <!-- Top tab -->
-    <rect x="-7" y="-30" width="14" height="16" rx="4" fill="white" opacity="0.95"/>
-    <!-- Right tab -->
-    <rect x="14" y="-7" width="16" height="14" rx="4" fill="white" opacity="0.95"/>
-    <!-- Bottom tab -->
-    <rect x="-7" y="14" width="14" height="16" rx="4" fill="white" opacity="0.95"/>
-    <!-- Left tab -->
-    <rect x="-30" y="-7" width="16" height="14" rx="4" fill="white" opacity="0.95"/>
-    <!-- Inner detail - plus sign -->
-    <rect x="-2" y="-10" width="4" height="20" rx="2" fill="#D97706" opacity="0.6"/>
-    <rect x="-10" y="-2" width="20" height="4" rx="2" fill="#D97706" opacity="0.6"/>
-  </g>
+
+  <!-- Background -->
+  <rect width="120" height="120" rx="26" fill="url(#logoBg)"/>
+  <rect width="120" height="120" rx="26" fill="none" stroke="url(#logoGrad)" stroke-width="1" opacity="0.3"/>
+
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="30" fill="none" stroke="url(#logoGrad)" stroke-width="2.5" opacity="0.5"/>
+
+  <!-- Inner hexagon -->
+  <polygon points="60,38 79,49 79,71 60,82 41,71 41,49" fill="url(#logoGrad)" opacity="0.12"/>
+
+  <!-- Center dot -->
+  <circle cx="60" cy="60" r="6" fill="url(#logoGrad)"/>
+
+  <!-- Radiating lines -->
+  <line x1="60" y1="50" x2="60" y2="36" stroke="#c084fc" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="69" y1="55" x2="80" y2="48" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="69" y1="65" x2="80" y2="72" stroke="#818cf8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="60" y1="70" x2="60" y2="84" stroke="#c084fc" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="51" y1="65" x2="40" y2="72" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="51" y1="55" x2="40" y2="48" stroke="#818cf8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
 </svg>

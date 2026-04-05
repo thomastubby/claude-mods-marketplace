@@ -1,117 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
   <defs>
-    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e"/>
-      <stop offset="50%" style="stop-color:#16213e"/>
-      <stop offset="100%" style="stop-color:#0f3460"/>
+    <linearGradient id="spBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c0c"/>
+      <stop offset="100%" stop-color="#171717"/>
     </linearGradient>
-    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#D97706"/>
-      <stop offset="100%" style="stop-color:#F59E0B"/>
+    <linearGradient id="spAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
     </linearGradient>
-    <filter id="glow2">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="bigGlow">
-      <feGaussianBlur stdDeviation="40" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <radialGradient id="spGlow1" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spGlow2" cx="50%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="1280" height="640" fill="url(#bg2)"/>
+  <rect width="1280" height="640" fill="url(#spBg)"/>
 
-  <!-- Large ambient glow -->
-  <circle cx="640" cy="280" r="200" fill="#F59E0B" opacity="0.05" filter="url(#bigGlow)"/>
+  <!-- Ambient glows -->
+  <ellipse cx="640" cy="260" rx="500" ry="300" fill="url(#spGlow1)"/>
+  <ellipse cx="640" cy="400" rx="400" ry="250" fill="url(#spGlow2)"/>
 
-  <!-- Grid pattern -->
-  <g opacity="0.03" stroke="#F59E0B" stroke-width="0.5">
-    <line x1="0" y1="64" x2="1280" y2="64"/><line x1="0" y1="128" x2="1280" y2="128"/>
-    <line x1="0" y1="192" x2="1280" y2="192"/><line x1="0" y1="256" x2="1280" y2="256"/>
-    <line x1="0" y1="320" x2="1280" y2="320"/><line x1="0" y1="384" x2="1280" y2="384"/>
-    <line x1="0" y1="448" x2="1280" y2="448"/><line x1="0" y1="512" x2="1280" y2="512"/>
-    <line x1="0" y1="576" x2="1280" y2="576"/>
-    <line x1="128" y1="0" x2="128" y2="640"/><line x1="256" y1="0" x2="256" y2="640"/>
-    <line x1="384" y1="0" x2="384" y2="640"/><line x1="512" y1="0" x2="512" y2="640"/>
-    <line x1="640" y1="0" x2="640" y2="640"/><line x1="768" y1="0" x2="768" y2="640"/>
-    <line x1="896" y1="0" x2="896" y2="640"/><line x1="1024" y1="0" x2="1024" y2="640"/>
-    <line x1="1152" y1="0" x2="1152" y2="640"/>
-  </g>
+  <!-- Top line -->
+  <rect y="0" width="1280" height="1" fill="url(#spAccent)" opacity="0.2"/>
 
-  <!-- Decorative floating cards -->
-  <g transform="translate(80, 100)" opacity="0.08">
-    <rect width="180" height="100" rx="10" fill="#F59E0B"/>
-    <rect x="14" y="14" width="80" height="8" rx="4" fill="white"/>
-    <rect x="14" y="30" width="130" height="5" rx="2.5" fill="white" opacity="0.6"/>
-    <rect x="14" y="42" width="100" height="5" rx="2.5" fill="white" opacity="0.4"/>
-    <rect x="14" y="66" width="52" height="20" rx="5" fill="white" opacity="0.5"/>
-  </g>
-  <g transform="translate(1020, 80)" opacity="0.1">
-    <rect width="190" height="110" rx="10" fill="#F59E0B"/>
-    <rect x="14" y="14" width="90" height="8" rx="4" fill="white"/>
-    <rect x="14" y="30" width="140" height="5" rx="2.5" fill="white" opacity="0.6"/>
-    <rect x="14" y="42" width="110" height="5" rx="2.5" fill="white" opacity="0.4"/>
-    <rect x="14" y="70" width="52" height="20" rx="5" fill="white" opacity="0.5"/>
-  </g>
-  <g transform="translate(60, 440)" opacity="0.06">
-    <rect width="160" height="90" rx="10" fill="#F59E0B"/>
-    <rect x="12" y="12" width="70" height="7" rx="3.5" fill="white"/>
-    <rect x="12" y="26" width="110" height="4" rx="2" fill="white" opacity="0.6"/>
-  </g>
-  <g transform="translate(1060, 430)" opacity="0.06">
-    <rect width="150" height="85" rx="10" fill="#F59E0B"/>
-    <rect x="12" y="12" width="65" height="7" rx="3.5" fill="white"/>
-    <rect x="12" y="26" width="105" height="4" rx="2" fill="white" opacity="0.6"/>
-  </g>
-
-  <!-- Logo -->
-  <g transform="translate(640, 220)" filter="url(#glow2)">
-    <rect x="-28" y="-28" width="56" height="56" rx="8" fill="url(#accent2)"/>
-    <rect x="-11" y="-44" width="22" height="20" rx="6" fill="url(#accent2)"/>
-    <rect x="24" y="-11" width="20" height="22" rx="6" fill="url(#accent2)"/>
-    <rect x="-11" y="24" width="22" height="20" rx="6" fill="url(#accent2)"/>
-    <rect x="-44" y="-11" width="20" height="22" rx="6" fill="url(#accent2)"/>
-    <rect x="-3" y="-14" width="6" height="28" rx="3" fill="white" opacity="0.5"/>
-    <rect x="-14" y="-3" width="28" height="6" rx="3" fill="white" opacity="0.5"/>
+  <!-- Logo mark -->
+  <g transform="translate(640, 220)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="url(#spAccent)" stroke-width="2.5" opacity="0.5"/>
+    <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" fill="url(#spAccent)" opacity="0.12"/>
+    <circle cx="0" cy="0" r="8" fill="url(#spAccent)"/>
+    <line x1="0" y1="-12" x2="0" y2="-28" stroke="#c084fc" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="10" y1="-6" x2="24" y2="-14" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <line x1="10" y1="6" x2="24" y2="14" stroke="#818cf8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <line x1="0" y1="12" x2="0" y2="28" stroke="#c084fc" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="-10" y1="6" x2="-24" y2="14" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <line x1="-10" y1="-6" x2="-24" y2="-14" stroke="#818cf8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
   </g>
 
   <!-- Title -->
-  <text x="640" y="330" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#F9FAFB" text-anchor="middle" letter-spacing="-2">Claude Mods</text>
+  <text x="640" y="320" font-family="'SF Pro Display', 'Inter', system-ui, sans-serif" font-size="56" font-weight="700" fill="white" text-anchor="middle" letter-spacing="-2">claude mods</text>
 
   <!-- Subtitle -->
-  <text x="640" y="380" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">Community-powered customizations for Claude Desktop</text>
+  <text x="640" y="360" font-family="'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="20" fill="#737373" text-anchor="middle">Community-built mods for Claude Desktop</text>
 
-  <!-- Category pills -->
-  <g transform="translate(640, 420)">
-    <rect x="-315" y="0" width="86" height="32" rx="16" fill="#D97706" opacity="0.2" stroke="#D97706" stroke-width="0.5" stroke-opacity="0.4"/>
-    <text x="-272" y="21" font-family="system-ui, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle" font-weight="600">Skills</text>
+  <!-- Pill tags -->
+  <g transform="translate(640, 400)">
+    <rect x="-210" width="62" height="28" rx="14" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08" stroke-width="0.5"/>
+    <text x="-179" y="18" font-family="'SF Mono', monospace" font-size="11" fill="#a3a3a3" text-anchor="middle">skills</text>
 
-    <rect x="-215" y="0" width="82" height="32" rx="16" fill="#D97706" opacity="0.2" stroke="#D97706" stroke-width="0.5" stroke-opacity="0.4"/>
-    <text x="-174" y="21" font-family="system-ui, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle" font-weight="600">Styles</text>
+    <rect x="-138" width="58" height="28" rx="14" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08" stroke-width="0.5"/>
+    <text x="-109" y="18" font-family="'SF Mono', monospace" font-size="11" fill="#a3a3a3" text-anchor="middle">styles</text>
 
-    <rect x="-119" y="0" width="98" height="32" rx="16" fill="#D97706" opacity="0.2" stroke="#D97706" stroke-width="0.5" stroke-opacity="0.4"/>
-    <text x="-70" y="21" font-family="system-ui, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle" font-weight="600">Prompts</text>
+    <rect x="-70" width="74" height="28" rx="14" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08" stroke-width="0.5"/>
+    <text x="-33" y="18" font-family="'SF Mono', monospace" font-size="11" fill="#a3a3a3" text-anchor="middle">prompts</text>
 
-    <rect x="-7" y="0" width="90" height="32" rx="16" fill="#D97706" opacity="0.2" stroke="#D97706" stroke-width="0.5" stroke-opacity="0.4"/>
-    <text x="38" y="21" font-family="system-ui, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle" font-weight="600">Modes</text>
+    <rect x="14" width="66" height="28" rx="14" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08" stroke-width="0.5"/>
+    <text x="47" y="18" font-family="'SF Mono', monospace" font-size="11" fill="#a3a3a3" text-anchor="middle">modes</text>
 
-    <rect x="97" y="0" width="90" height="32" rx="16" fill="#D97706" opacity="0.2" stroke="#D97706" stroke-width="0.5" stroke-opacity="0.4"/>
-    <text x="142" y="21" font-family="system-ui, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle" font-weight="600">Agents</text>
-
-    <rect x="201" y="0" width="82" height="32" rx="16" fill="#D97706" opacity="0.2" stroke="#D97706" stroke-width="0.5" stroke-opacity="0.4"/>
-    <text x="242" y="21" font-family="system-ui, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle" font-weight="600">Hooks</text>
+    <rect x="90" width="82" height="28" rx="14" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08" stroke-width="0.5"/>
+    <text x="131" y="18" font-family="'SF Mono', monospace" font-size="11" fill="#a3a3a3" text-anchor="middle">modpacks</text>
   </g>
 
-  <!-- Stats bar -->
-  <text x="640" y="510" font-family="system-ui, sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">8 Verified Mods  ·  6 Categories  ·  Open Source  ·  Community Driven</text>
+  <!-- Stats -->
+  <text x="640" y="490" font-family="'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="15" fill="#525252" text-anchor="middle">24 mods  /  7 categories  /  open source</text>
 
-  <!-- Bottom accent -->
-  <rect y="630" width="1280" height="10" fill="url(#accent2)"/>
+  <!-- Bottom line -->
+  <rect y="638" width="1280" height="2" fill="url(#spAccent)" opacity="0.3"/>
 </svg>
